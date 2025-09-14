@@ -1,6 +1,6 @@
 # raspberry-pi-os-desktop-wallpaper
 
-The official [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) desktop wallpaper images.
+The official [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) (and Raspberry Pi Desktop) wallpaper images.
 
 For details (including locations) of the "2016" images, see: https://stories.gregannandale.com/raspberry-pi-desktop-images
 
