@@ -1,8 +1,18 @@
-# raspberry-pi-os-desktop-wallpaper
+# Raspberry Pi OS / Desktop wallpaper
 
 The official [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) (and Raspberry Pi Desktop) wallpaper images, in ~4k resolution.
 
-For details (including locations) of the "2016" images, see: https://stories.gregannandale.com/raspberry-pi-desktop-images
+The "2016" directory contains the images used in the original release of [Raspbian with PIXEL](https://www.raspberrypi.com/news/introducing-pixel/), from September 2016.
+
+For details (including locations, gear used, and settings) of the "2016" images, see: https://stories.gregannandale.com/raspberry-pi-desktop-images
+
+Location data is also included in the EXIF metadata of the images, and can be accessed using tools such as [exiftool](https://exiftool.org/), eg:
+
+```
+$ exiftool -n -gpslatitude -gpslongitude <imagename>.jpg
+```
+
+***
 
 [![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
