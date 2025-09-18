@@ -14,6 +14,10 @@ $ exiftool -n -gpslatitude -gpslongitude <imagename>.jpg
 
 ***
 
+![wallpaper-grid-2016](https://github.com/user-attachments/assets/4a0e2a4c-5147-4a59-abad-ca46f38f374d)
+
+***
+
 [![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
 This work is licensed under a
