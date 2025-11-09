@@ -2,19 +2,37 @@
 
 The official [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) (and Raspberry Pi Desktop) wallpaper images, in ~4k resolution.
 
+## 2016
+
 The "2016" directory contains the images used in the original release of [Raspbian with PIXEL](https://www.raspberrypi.com/news/introducing-pixel/), from September 2016. For details (including locations, gear used, and settings) of these images, see: https://stories.gregannandale.com/raspberry-pi-desktop-images
-
-Location data is also included in the EXIF metadata of the images, and can be accessed using tools such as [exiftool](https://exiftool.org/), eg:
-
-```
-$ exiftool -n -gpslatitude -gpslongitude <imagename>.jpg
-```
 
 ***
 
 ![wallpaper-grid-2016](https://github.com/user-attachments/assets/4a0e2a4c-5147-4a59-abad-ca46f38f374d)
 
 ***
+
+## 2025
+
+The 2025 images were introduced with the release of [Raspberry Pi OS "Trixie"](https://www.raspberrypi.com/news/trixie-the-new-version-of-raspberry-pi-os/) in October 2025. For details (including locations, gear used, and settings) of these images, see: https://stories.gregannandale.com/raspberry-pi-desktop-images-2025
+
+These images aren't currently available in this repository, but may be added in the future.
+
+***
+
+
+
+***
+
+## Locations
+
+Location data is included in the EXIF metadata of the images, and can be accessed using tools such as [exiftool](https://exiftool.org/), eg:
+
+```
+$ exiftool -n -gpslatitude -gpslongitude <imagename>.jpg
+```
+
+## Licence
 
 [![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
