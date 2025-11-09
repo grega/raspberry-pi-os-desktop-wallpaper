@@ -2,36 +2,6 @@
 
 The official [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) (and Raspberry Pi Desktop) wallpaper images, in ~4k resolution.
 
-## 2016
-
-The "2016" directory contains the images used in the original release of [Raspbian with PIXEL](https://www.raspberrypi.com/news/introducing-pixel/), from September 2016. For details (including locations, gear used, and settings) of these images, see: https://stories.gregannandale.com/raspberry-pi-desktop-images
-
-***
-
-![wallpaper-grid-2016](https://github.com/user-attachments/assets/4a0e2a4c-5147-4a59-abad-ca46f38f374d)
-
-***
-
-## 2025
-
-The 2025 images were introduced with the release of [Raspberry Pi OS "Trixie"](https://www.raspberrypi.com/news/trixie-the-new-version-of-raspberry-pi-os/) in October 2025. For details (including locations, gear used, and settings) of these images, see: https://stories.gregannandale.com/raspberry-pi-desktop-images-2025
-
-These images aren't currently available in this repository, but may be added in the future.
-
-***
-
-
-
-***
-
-## Locations
-
-Location data is included in the EXIF metadata of the images, and can be accessed using tools such as [exiftool](https://exiftool.org/), eg:
-
-```
-$ exiftool -n -gpslatitude -gpslongitude <imagename>.jpg
-```
-
 ## Licence
 
 [![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
@@ -46,3 +16,29 @@ This work is licensed under a
 [cc-by-nc-nd-shield]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
 
 In addition, Raspberry Pi Ltd is granted a separate, non-exclusive licence to use, reproduce, and distribute these images as part of Raspberry Pi OS and associated official Raspberry Pi materials, notwithstanding the “NonCommercial” restriction above.
+
+## 2016
+
+The "2016" directory contains the images used in the original release of [Raspbian with PIXEL](https://www.raspberrypi.com/news/introducing-pixel/), from September 2016. For details (including locations, gear used, and settings) of these images, see: https://stories.gregannandale.com/raspberry-pi-desktop-images
+
+![wallpaper-grid-2016](https://github.com/user-attachments/assets/4a0e2a4c-5147-4a59-abad-ca46f38f374d)
+
+***
+
+## 2025
+
+The 2025 images were introduced with the release of [Raspberry Pi OS "Trixie"](https://www.raspberrypi.com/news/trixie-the-new-version-of-raspberry-pi-os/) in October 2025. For details (including locations, gear used, and settings) of these images, see: https://stories.gregannandale.com/raspberry-pi-desktop-images-2025
+
+These images aren't currently available in this repository, but may be added in the future.
+
+![wallpaper-grid-2025](https://github.com/user-attachments/assets/69c10909-feeb-4e94-ad1c-d375c0fa753e)
+
+***
+
+## Locations
+
+Location data is included in the EXIF metadata of the images, and can be accessed using tools such as [exiftool](https://exiftool.org/), eg:
+
+```
+$ exiftool -n -gpslatitude -gpslongitude <imagename>.jpg
+```
